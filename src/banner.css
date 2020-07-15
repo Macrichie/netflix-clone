@@ -11,18 +11,19 @@
 }
 
 .banner__title {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 400;
     padding-bottom: 0.3rem;
+    letter-spacing: 15px;
 }
 
 .banner__description {
     width: 45rem;
     line-height: 1.3;
     padding-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-width: 360px;
-    height: 80px;
+    height: 83px;
 }
 
 .banner__button {
@@ -54,4 +55,41 @@
         rgba(37, 37, 37, 0.61),
         #111
     );
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+    .banner__title {
+        font-size: 2.5rem;
+        font-weight: 350;
+    }
+    
+    .banner__description {
+        width: 35rem;
+        font-size: 0.8rem;
+        max-width: 360px;
+        height: 83px;
+    }
+}
+
+@media (max-width: 650px) {
+    .banner__title {
+        font-size: 3rem;
+        font-weight: 350;
+    }
+    
+    .banner__description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 853px) {
+    .banner__title {
+        font-size: 3.5rem;
+        font-weight: 350;
+    }
+    
+    .banner__description {
+        font-size: 0.95rem;
+    }
 }

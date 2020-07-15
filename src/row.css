@@ -1,6 +1,9 @@
 .row {
     color: white;
     margin-left: 20px;
+    font-size: 0.7rem;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .row__posters {
@@ -23,7 +26,7 @@
 }
 
 .row__poster:hover {
-    transform: scale(1.08);
+    transform: scale(1.10);
     opacity: 1;
 }
 
